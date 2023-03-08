@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .progress{
+            background-color: red;
+            height: 3px;
+            animation: load 1s ease-in-out 1;
+            
+
+        }
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        header{
+            height: 122px;
+            background-color: black;
+            color: white;
+
+        }
+        main{
+            height: 899px;
+            background-color: blue;
+        }
+        @keyframes load {
+            0%{
+                width: 0;
+            }
+            50%{
+                width: 90vw;
+            }
+            100%{
+                width: 100vw;
+            }
+            
+        }
+        @keyframes rotate {
+            0%{
+                transform: rotate(0deg);
+            }
+            100%{
+                transform: rotate(360deg);
+            }
+            
+        }
+        li{
+            display: inline-block;
+            margin: 40px 10px;
+        }
+        /* img{
+            width: 200px;
+            height: 200px;
+            animation: rotate 2s ease-in infinite;
+        } */
+        img{
+            display: block;
+            margin: auto;
+            
+            
+        }
+        .slider{
+        background-color: white;
+            height: 523px;
+            
+            overflow: hidden;
+            margin: auto;
+            transle
+        
+        }
+        
+        
+    </style>
+</head>
+<body>
+    <div class="progress"></div>
+    <header>
+        <nav>
+            <ul>
+                <li>Home</li>
+                <li>Contact</li>
+                <li>About</li>
+            </ul>
+        </nav>
+        
+    </header>
+    <main>
+        <!-- <img src="dragon.png" alt="not found" > -->
+        <div class="slider">
+            <img src="http://source.unsplash.com/collection/190727/1600x900"> 
+
+        </div>
+
+    </main>
+    
+</body>
+</html>
